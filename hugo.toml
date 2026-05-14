@@ -1,0 +1,16 @@
+baseURL = "https://ungyga.org/"
+languageCode = "en-us"
+title = "GYGA"
+theme = "ananke"
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    title = "GYGA"
+    weight = 1
+  [languages.fr]
+    title = "GYGA"
+    weight = 2
+  [languages.zh]
+    title = "GYGA 全球青年治理协会"
+    weight = 3
