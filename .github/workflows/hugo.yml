@@ -30,7 +30,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify --baseURL "https://trig020608-commits.github.io/gyga-website/"
+        run: hugo --minify --baseURL "https://ungyga.org/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
