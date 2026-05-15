@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: trig020608-commits/gyga-website
   branch: main
 
 media_folder: static/images
