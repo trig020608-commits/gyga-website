@@ -15,21 +15,69 @@ i18n:
 collections:
   - name: "news"
     label: "新闻 / News / Actualités"
-    folder: "content/news"
+    folder: "content/en/news"
     create: true
     i18n: true
     fields:
-      - {label: "标题", name: "title", widget: "string", i18n: true}
-      - {label: "日期", name: "date", widget: "datetime"}
-      - {label: "封面图", name: "image", widget: "image", required: false}
-      - {label: "内容", name: "body", widget: "markdown", i18n: true}
+      - {label: "标题 / Title", name: "title", widget: "string", i18n: true}
+      - {label: "日期 / Date", name: "date", widget: "datetime"}
+      - {label: "分类 / Category", name: "category", widget: "string", i18n: true, required: false}
+      - {label: "内容 / Content", name: "body", widget: "markdown", i18n: true}
 
-  - name: "programs"
-    label: "项目 / Programs / Programmes"
-    folder: "content/programs"
-    create: true
-    i18n: true
-    fields:
-      - {label: "项目名称", name: "title", widget: "string", i18n: true}
-      - {label: "描述", name: "description", widget: "text", i18n: true}
-      - {label: "内容", name: "body", widget: "markdown", i18n: true}
+  - name: "about"
+    label: "关于我们 / About"
+    files:
+      - label: "English"
+        name: "about_en"
+        file: "content/en/about/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "text"}
+          - label: "Core Values"
+            name: "values"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+          - label: "Executive Members"
+            name: "exec_members"
+            widget: "list"
+            fields:
+              - {label: "Role", name: "role", widget: "string"}
+              - {label: "Name", name: "name", widget: "string"}
+      - label: "中文"
+        name: "about_zh"
+        file: "content/zh/about/_index.md"
+        fields:
+          - {label: "标题", name: "title", widget: "string"}
+          - {label: "副标题", name: "subtitle", widget: "text"}
+          - label: "核心价值"
+            name: "values"
+            widget: "list"
+            fields:
+              - {label: "标题", name: "title", widget: "string"}
+              - {label: "描述", name: "description", widget: "text"}
+          - label: "执行委员会"
+            name: "exec_members"
+            widget: "list"
+            fields:
+              - {label: "职位", name: "role", widget: "string"}
+              - {label: "姓名", name: "name", widget: "string"}
+      - label: "Français"
+        name: "about_fr"
+        file: "content/fr/about/_index.md"
+        fields:
+          - {label: "Titre", name: "title", widget: "string"}
+          - {label: "Sous-titre", name: "subtitle", widget: "text"}
+          - label: "Valeurs"
+            name: "values"
+            widget: "list"
+            fields:
+              - {label: "Titre", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+          - label: "Comité exécutif"
+            name: "exec_members"
+            widget: "list"
+            fields:
+              - {label: "Rôle", name: "role", widget: "string"}
+              - {label: "Nom", name: "name", widget: "string"}
