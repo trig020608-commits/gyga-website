@@ -2,7 +2,7 @@ backend:
   name: github
   repo: trig020608-commits/gyga-website
   branch: main
-  base_url: https://gyga-oauth.workers.dev
+  base_url: https://gyga-oauth.trig020608.workers.dev
 
 media_folder: static/images
 public_folder: /images
