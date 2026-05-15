@@ -2,6 +2,9 @@ backend:
   name: github
   repo: trig020608-commits/gyga-website
   branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+  site_id: willowy-halva-cf9230.netlify.app
 
 media_folder: static/images
 public_folder: /images
