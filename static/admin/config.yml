@@ -7,27 +7,51 @@ backend:
 media_folder: static/images
 public_folder: /images
 
-i18n:
-  structure: multiple_files
-  locales: [en, fr, zh]
-  default_locale: en
-
 collections:
   - name: "news"
     label: "新闻 / News / Actualités"
     folder: "content/en/news"
     create: true
-    i18n: true
+    i18n:
+      structure: multiple_files
+      locales: [en, zh, fr]
     fields:
-      - {label: "标题 / Title", name: "title", widget: "string", i18n: true}
-      - {label: "日期 / Date", name: "date", widget: "datetime"}
-      - {label: "分类 / Category", name: "category", widget: "string", i18n: true, required: false}
-      - {label: "内容 / Content", name: "body", widget: "markdown", i18n: true}
+      - {label: "Title", name: "title", widget: "string", i18n: true}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Category", name: "category", widget: "string", i18n: true, required: false}
+      - {label: "Content", name: "body", widget: "markdown", i18n: true}
 
-  - name: "about"
-    label: "关于我们 / About"
+  - name: "pages"
+    label: "页面内容 / Pages"
     files:
-      - label: "English"
+      - label: "首页 EN"
+        name: "home_en"
+        file: "content/en/_index.md"
+        fields:
+          - {label: "Hero Title", name: "hero_title", widget: "string"}
+          - {label: "Intro Title", name: "intro_title", widget: "string"}
+          - {label: "Intro Text", name: "intro_text", widget: "text"}
+          - {label: "Button: About", name: "btn_about", widget: "string"}
+          - {label: "Button: Join", name: "btn_join", widget: "string"}
+      - label: "首页 ZH"
+        name: "home_zh"
+        file: "content/zh/_index.md"
+        fields:
+          - {label: "Hero 标题", name: "hero_title", widget: "string"}
+          - {label: "简介标题", name: "intro_title", widget: "string"}
+          - {label: "简介内容", name: "intro_text", widget: "text"}
+          - {label: "按钮：关于", name: "btn_about", widget: "string"}
+          - {label: "按钮：加入", name: "btn_join", widget: "string"}
+      - label: "首页 FR"
+        name: "home_fr"
+        file: "content/fr/_index.md"
+        fields:
+          - {label: "Titre Hero", name: "hero_title", widget: "string"}
+          - {label: "Titre intro", name: "intro_title", widget: "string"}
+          - {label: "Texte intro", name: "intro_text", widget: "text"}
+          - {label: "Bouton: À propos", name: "btn_about", widget: "string"}
+          - {label: "Bouton: Rejoindre", name: "btn_join", widget: "string"}
+      - label: "关于我们 EN"
         name: "about_en"
         file: "content/en/about/_index.md"
         fields:
@@ -45,7 +69,7 @@ collections:
             fields:
               - {label: "Role", name: "role", widget: "string"}
               - {label: "Name", name: "name", widget: "string"}
-      - label: "中文"
+      - label: "关于我们 ZH"
         name: "about_zh"
         file: "content/zh/about/_index.md"
         fields:
@@ -63,7 +87,7 @@ collections:
             fields:
               - {label: "职位", name: "role", widget: "string"}
               - {label: "姓名", name: "name", widget: "string"}
-      - label: "Français"
+      - label: "关于我们 FR"
         name: "about_fr"
         file: "content/fr/about/_index.md"
         fields:
@@ -81,3 +105,84 @@ collections:
             fields:
               - {label: "Rôle", name: "role", widget: "string"}
               - {label: "Nom", name: "name", widget: "string"}
+      - label: "我们的行动 EN"
+        name: "whatwedo_en"
+        file: "content/en/whatwedo/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "text"}
+          - label: "Programs"
+            name: "programs"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+      - label: "我们的行动 ZH"
+        name: "whatwedo_zh"
+        file: "content/zh/whatwedo/_index.md"
+        fields:
+          - {label: "标题", name: "title", widget: "string"}
+          - {label: "副标题", name: "subtitle", widget: "text"}
+          - label: "项目"
+            name: "programs"
+            widget: "list"
+            fields:
+              - {label: "标题", name: "title", widget: "string"}
+              - {label: "描述", name: "description", widget: "text"}
+      - label: "我们的行动 FR"
+        name: "whatwedo_fr"
+        file: "content/fr/whatwedo/_index.md"
+        fields:
+          - {label: "Titre", name: "title", widget: "string"}
+          - {label: "Sous-titre", name: "subtitle", widget: "text"}
+          - label: "Programmes"
+            name: "programs"
+            widget: "list"
+            fields:
+              - {label: "Titre", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+      - label: "参与社群 EN"
+        name: "communities_en"
+        file: "content/en/communities/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "text"}
+          - {label: "Membership Title", name: "membership_title", widget: "string"}
+          - label: "Membership Types"
+            name: "membership_types"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+          - {label: "Donate Title", name: "donate_title", widget: "string"}
+          - {label: "Donate Text", name: "donate_text", widget: "text"}
+      - label: "参与社群 ZH"
+        name: "communities_zh"
+        file: "content/zh/communities/_index.md"
+        fields:
+          - {label: "标题", name: "title", widget: "string"}
+          - {label: "副标题", name: "subtitle", widget: "text"}
+          - {label: "会员类型标题", name: "membership_title", widget: "string"}
+          - label: "会员类型"
+            name: "membership_types"
+            widget: "list"
+            fields:
+              - {label: "标题", name: "title", widget: "string"}
+              - {label: "描述", name: "description", widget: "text"}
+          - {label: "捐赠标题", name: "donate_title", widget: "string"}
+          - {label: "捐赠说明", name: "donate_text", widget: "text"}
+      - label: "参与社群 FR"
+        name: "communities_fr"
+        file: "content/fr/communities/_index.md"
+        fields:
+          - {label: "Titre", name: "title", widget: "string"}
+          - {label: "Sous-titre", name: "subtitle", widget: "text"}
+          - {label: "Titre membres", name: "membership_title", widget: "string"}
+          - label: "Types de membres"
+            name: "membership_types"
+            widget: "list"
+            fields:
+              - {label: "Titre", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+          - {label: "Titre dons", name: "donate_title", widget: "string"}
+          - {label: "Texte dons", name: "donate_text", widget: "text"}
