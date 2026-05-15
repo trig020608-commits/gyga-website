@@ -1,0 +1,22 @@
+---
+title: "参与社群"
+type: "communities"
+subtitle: "加入 GYGA，成为全球青年治理网络的一员。"
+membership_title: "会员类型"
+membership_types:
+  - title: "活跃会员"
+    description: "参与治理与关键决策。"
+  - title: "被动会员 / 合作伙伴"
+    description: "无投票权，可参与项目协作与资源支持。"
+form_title: "在线申请表"
+form_subtitle: "填写以下表格申请成为会员。"
+field_name: "姓名"
+field_email: "邮箱"
+field_type: "申请类型"
+membership_options:
+  - "活跃会员"
+  - "被动会员 / 合作伙伴"
+form_submit: "提交申请"
+donate_title: "捐赠与资助"
+donate_text: "用于支持青年治理相关项目。"
+---

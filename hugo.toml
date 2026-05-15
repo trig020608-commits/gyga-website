@@ -1,16 +1,35 @@
 baseURL = "https://ungyga.org/"
-languageCode = "en-us"
-title = "GYGA"
-theme = "ananke"
 defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+enableRobotsTXT = true
 
 [languages]
   [languages.en]
     title = "GYGA"
+    languageName = "English"
     weight = 1
-  [languages.fr]
-    title = "GYGA"
-    weight = 2
+    contentDir = "content/en"
   [languages.zh]
     title = "GYGA 全球青年治理协会"
+    languageName = "中文"
+    weight = 2
+    contentDir = "content/zh"
+  [languages.fr]
+    title = "GYGA"
+    languageName = "Français"
     weight = 3
+    contentDir = "content/fr"
+
+[params]
+  description = "GYGA — Global Youth Governance Association, Geneva"
+  contact_email = "contact@ungyga.org"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML"]
+  page = ["HTML"]
+  section = ["HTML"]

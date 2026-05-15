@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Qui sommes-nous — GYGA</title>
+<meta name="description" content="GYGA — Global Youth Governance Association, Geneva"/>
+<meta http-equiv="X-Content-Type-Options" content="nosniff"/>
+<meta http-equiv="X-Frame-Options" content="DENY"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="/css/main.css"/>
+<link rel="icon" type="image/svg+xml" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="6" fill="%230099CC"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="14" fill="white">G</text></svg>'/>
+
+</head>
+<body>
+
+
+<nav class="navbar">
+<div class="navbar-inner">
+<a href="/fr/" class="navbar-logo">GYGA</a>
+<button class="menu-toggle" aria-label="menu"><span></span><span></span><span></span></button>
+<ul class="navbar-nav">
+
+<li><a href="/fr/">Accueil</a></li>
+<li><a href="/fr/about/" class="active">Qui sommes-nous</a></li>
+<li><a href="/fr/whatwedo/">Nos actions</a></li>
+<li><a href="/fr/communities/">Communautés</a></li>
+<li><a href="/fr/news/">Actualités</a></li>
+
+</ul>
+<div class="lang-switcher">
+<a href="/zh/" class="lang-btn">ZH</a>
+<a href="/en/" class="lang-btn">EN</a>
+<a href="/fr/" class="lang-btn active">FR</a>
+</div>
+</div>
+</nav>
+
+<main>
+
+<div class="page-content">
+<div class="page-header">
+<h1>Qui sommes-nous</h1>
+<p>L&#39;Association mondiale de gouvernance des jeunes a été officiellement fondée le 18 mars 2026 à Genève, Suisse.</p>
+</div>
+
+
+<div class="card">
+<h2>Six valeurs fondamentales</h2>
+<div class="grid-3">
+
+<div class="value-card"><h3>Intérêt public d&#39;abord</h3><p>Nos actions servent l&#39;intérêt public local et mondial.</p></div>
+
+<div class="value-card"><h3>Autonomisation des jeunes</h3><p>Nous renforçons les compétences et le leadership des jeunes.</p></div>
+
+<div class="value-card"><h3>Diversité et inclusion</h3><p>Nous promouvons une participation équitable et plurielle.</p></div>
+
+<div class="value-card"><h3>Professionnalisme et intégrité</h3><p>Nous agissons avec responsabilité et transparence.</p></div>
+
+<div class="value-card"><h3>Partenariats et coopération</h3><p>Nous co-construisons avec institutions et partenaires.</p></div>
+
+<div class="value-card"><h3>Orientation vers l&#39;action</h3><p>Nous transformons les idées en résultats concrets.</p></div>
+
+</div>
+</div>
+<div class="card">
+<h2>Équipe</h2>
+<div class="section-label">COMITÉ EXÉCUTIF</div>
+<div class="grid-3">
+
+<div class="team-card"><div class="role">Président / 主席</div><div class="name">Qun Zheng</div></div>
+
+<div class="team-card"><div class="role">Secrétaire Général / 秘书长</div><div class="name">Xuebing Bai</div></div>
+
+<div class="team-card"><div class="role">Trésorier / 财务主管</div><div class="name">Xin Zhou</div></div>
+
+</div>
+
+<div class="section-label" style="margin-top:24px;">COMITÉ D&#39;EXPERTS</div>
+<p style="color:var(--gray-text);font-size:.9rem;margin-top:8px;">Les profils du comité d&#39;experts seront ajoutés prochainement.</p>
+
+</div>
+
+
+</div>
+</main>
+
+<footer class="footer">
+<div class="footer-inner">
+<span class="footer-logo">GYGA</span>
+<span class="footer-text">
+
+
+© 2026 Association mondiale de gouvernance des jeunes · Genève, Suisse
+</span>
+<div class="footer-links">
+<a href="mailto:contact@ungyga.org">contact@ungyga.org</a>
+</div>
+</div>
+</footer>
+
+
+<div class="cookie-banner" id="cookie-banner">
+<p>
+
+
+<strong>Cookie et confidentialité</strong> · Nous utilisons des cookies essentiels, conformes au RGPD et à la LPD suisse.
+</p>
+<div class="cookie-actions">
+<button class="btn btn-outline" onclick="essentialOnly()" style="padding:6px 14px;font-size:.8rem;">Essentiels</button>
+<button class="btn btn-primary" onclick="acceptCookies()" style="padding:6px 14px;font-size:.8rem;">Accepter</button>
+</div>
+</div>
+
+<script>
+const toggle=document.querySelector('.menu-toggle');
+const nav=document.querySelector('.navbar-nav');
+if(toggle&&nav)toggle.addEventListener('click',()=>nav.classList.toggle('open'));
+const banner=document.getElementById('cookie-banner');
+if(localStorage.getItem('gyga-cookie')&&banner)banner.style.display='none';
+function acceptCookies(){localStorage.setItem('gyga-cookie','1');if(banner)banner.style.display='none';}
+function essentialOnly(){localStorage.setItem('gyga-cookie','essential');if(banner)banner.style.display='none';}
+</script>
+</body>
+</html>

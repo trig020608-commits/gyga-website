@@ -1,0 +1,22 @@
+---
+title: "Communities"
+type: "communities"
+subtitle: "Join GYGA and be part of a global youth governance network."
+membership_title: "Membership Types"
+membership_types:
+  - title: "Active Member"
+    description: "Participates in governance and key decision-making."
+  - title: "Passive Member / Partner"
+    description: "No voting rights; may participate in project collaboration and resource support."
+form_title: "Apply Online"
+form_subtitle: "Fill in the form below to apply for membership."
+field_name: "Full Name"
+field_email: "Email Address"
+field_type: "Application Type"
+membership_options:
+  - "Active Member"
+  - "Passive Member / Partner"
+form_submit: "Submit Application"
+donate_title: "Donations & Support"
+donate_text: "Support GYGA's youth governance programs and initiatives."
+---

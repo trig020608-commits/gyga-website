@@ -1,0 +1,14 @@
+{{ $lang := .Lang }}
+<footer class="footer">
+<div class="footer-inner">
+<span class="footer-logo">GYGA</span>
+<span class="footer-text">
+{{ if eq $lang "zh" }}© 2026 全球青年治理协会 · 日内瓦，瑞士{{ end }}
+{{ if eq $lang "en" }}© 2026 Global Youth Governance Association · Geneva, Switzerland{{ end }}
+{{ if eq $lang "fr" }}© 2026 Association mondiale de gouvernance des jeunes · Genève, Suisse{{ end }}
+</span>
+<div class="footer-links">
+<a href="mailto:contact@ungyga.org">contact@ungyga.org</a>
+</div>
+</div>
+</footer>

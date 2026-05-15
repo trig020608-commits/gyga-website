@@ -1,0 +1,12 @@
+{{ $lang := .Lang }}
+<div class="cookie-banner" id="cookie-banner">
+<p>
+{{ if eq $lang "zh" }}<strong>Cookie 与隐私设置</strong> · 我们使用必要与分析类 Cookie 来改善网站体验，符合 GDPR 与瑞士 FADP 要求。{{ end }}
+{{ if eq $lang "en" }}<strong>Cookie & Privacy</strong> · We use essential and analytics cookies to improve your experience, compliant with GDPR and Swiss FADP.{{ end }}
+{{ if eq $lang "fr" }}<strong>Cookie et confidentialité</strong> · Nous utilisons des cookies essentiels, conformes au RGPD et à la LPD suisse.{{ end }}
+</p>
+<div class="cookie-actions">
+<button class="btn btn-outline" onclick="essentialOnly()" style="padding:6px 14px;font-size:.8rem;">{{ if eq $lang "zh" }}仅必要{{ else if eq $lang "fr" }}Essentiels{{ else }}Essential only{{ end }}</button>
+<button class="btn btn-primary" onclick="acceptCookies()" style="padding:6px 14px;font-size:.8rem;">{{ if eq $lang "zh" }}同意{{ else if eq $lang "fr" }}Accepter{{ else }}Accept{{ end }}</button>
+</div>
+</div>

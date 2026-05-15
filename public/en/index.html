@@ -1,9 +1,96 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <title>http://localhost:1313/</title>
-    <link rel="canonical" href="http://localhost:1313/">
-    <meta charset="utf-8">
-    <meta http-equiv="refresh" content="0; url=http://localhost:1313/">
-  </head>
+<html lang="en">
+<head>
+	<meta name="generator" content="Hugo 0.161.1"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>GYGA — Global Youth Governance Association</title>
+<meta name="description" content="GYGA — Global Youth Governance Association, Geneva"/>
+<meta http-equiv="X-Content-Type-Options" content="nosniff"/>
+<meta http-equiv="X-Frame-Options" content="DENY"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="/css/main.css"/>
+<link rel="icon" type="image/svg+xml" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="6" fill="%230099CC"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="14" fill="white">G</text></svg>'/>
+
+</head>
+<body>
+
+
+<nav class="navbar">
+<div class="navbar-inner">
+<a href="/en/" class="navbar-logo">GYGA</a>
+<button class="menu-toggle" aria-label="menu"><span></span><span></span><span></span></button>
+<ul class="navbar-nav">
+
+<li><a href="/en/" class="active">Home</a></li>
+<li><a href="/en/about/">Who We Are</a></li>
+<li><a href="/en/whatwedo/">What We Do</a></li>
+<li><a href="/en/communities/">Communities</a></li>
+<li><a href="/en/news/">What's New</a></li>
+
+</ul>
+<div class="lang-switcher">
+<a href="/zh/" class="lang-btn">ZH</a>
+<a href="/en/" class="lang-btn active">EN</a>
+<a href="/fr/" class="lang-btn">FR</a>
+</div>
+</div>
+</nav>
+
+<main>
+<div class="page-content">
+<div class="hero">
+<div class="hero-label">GYGA</div>
+<h1>Empowering Youth, Co-Creating the Future</h1>
+</div>
+<div class="card">
+<h2>Who We Are</h2>
+<p>The Global Youth Governance Association (GYGA) is a Geneva-based nonprofit dedicated to promoting youth participation in global governance and international organizations such as the United Nations.</p>
+<div class="btn-group">
+<a href="/en/about/" class="btn btn-primary">Learn About Us</a>
+<a href="/en/communities/" class="btn btn-outline">Join Now</a>
+</div>
+</div>
+</div>
+</main>
+
+<footer class="footer">
+<div class="footer-inner">
+<span class="footer-logo">GYGA</span>
+<span class="footer-text">
+
+© 2026 Global Youth Governance Association · Geneva, Switzerland
+
+</span>
+<div class="footer-links">
+<a href="mailto:contact@ungyga.org">contact@ungyga.org</a>
+</div>
+</div>
+</footer>
+
+
+<div class="cookie-banner" id="cookie-banner">
+<p>
+
+<strong>Cookie & Privacy</strong> · We use essential and analytics cookies to improve your experience, compliant with GDPR and Swiss FADP.
+
+</p>
+<div class="cookie-actions">
+<button class="btn btn-outline" onclick="essentialOnly()" style="padding:6px 14px;font-size:.8rem;">Essential only</button>
+<button class="btn btn-primary" onclick="acceptCookies()" style="padding:6px 14px;font-size:.8rem;">Accept</button>
+</div>
+</div>
+
+<script>
+const toggle=document.querySelector('.menu-toggle');
+const nav=document.querySelector('.navbar-nav');
+if(toggle&&nav)toggle.addEventListener('click',()=>nav.classList.toggle('open'));
+const banner=document.getElementById('cookie-banner');
+if(localStorage.getItem('gyga-cookie')&&banner)banner.style.display='none';
+function acceptCookies(){localStorage.setItem('gyga-cookie','1');if(banner)banner.style.display='none';}
+function essentialOnly(){localStorage.setItem('gyga-cookie','essential');if(banner)banner.style.display='none';}
+</script>
+</body>
 </html>

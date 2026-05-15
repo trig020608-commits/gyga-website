@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>{{ if .IsHome }}GYGA — Global Youth Governance Association{{ else }}{{ .Title }} — GYGA{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}GYGA — Global Youth Governance Association, Geneva{{ end }}"/>
+<meta http-equiv="X-Content-Type-Options" content="nosniff"/>
+<meta http-equiv="X-Frame-Options" content="DENY"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="{{ "css/main.css" | relURL }}"/>
+<link rel="icon" type="image/svg+xml" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="6" fill="%230099CC"/><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="14" fill="white">G</text></svg>'/>
+{{ block "head" . }}{{ end }}
+</head>
+<body>
+{{ partial "navbar.html" . }}
+<main>{{ block "main" . }}{{ end }}</main>
+{{ partial "footer.html" . }}
+{{ partial "cookie.html" . }}
+<script>
+const toggle=document.querySelector('.menu-toggle');
+const nav=document.querySelector('.navbar-nav');
+if(toggle&&nav)toggle.addEventListener('click',()=>nav.classList.toggle('open'));
+const banner=document.getElementById('cookie-banner');
+if(localStorage.getItem('gyga-cookie')&&banner)banner.style.display='none';
+function acceptCookies(){localStorage.setItem('gyga-cookie','1');if(banner)banner.style.display='none';}
+function essentialOnly(){localStorage.setItem('gyga-cookie','essential');if(banner)banner.style.display='none';}
+</script>
+</body>
+</html>

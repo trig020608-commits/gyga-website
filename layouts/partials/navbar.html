@@ -1,0 +1,34 @@
+{{ $lang := .Lang }}
+{{ $p := . }}
+<nav class="navbar">
+<div class="navbar-inner">
+<a href="{{ "/" | relLangURL }}" class="navbar-logo">GYGA</a>
+<button class="menu-toggle" aria-label="menu"><span></span><span></span><span></span></button>
+<ul class="navbar-nav">
+{{ if eq $lang "zh" }}
+<li><a href="{{ "/zh/" | relURL }}"{{ if $p.IsHome }} class="active"{{ end }}>首页</a></li>
+<li><a href="{{ "/zh/about/" | relURL }}"{{ if in $p.RelPermalink "/zh/about" }} class="active"{{ end }}>关于我们</a></li>
+<li><a href="{{ "/zh/whatwedo/" | relURL }}"{{ if in $p.RelPermalink "/zh/whatwedo" }} class="active"{{ end }}>我们的行动</a></li>
+<li><a href="{{ "/zh/communities/" | relURL }}"{{ if in $p.RelPermalink "/zh/communities" }} class="active"{{ end }}>参与社群</a></li>
+<li><a href="{{ "/zh/news/" | relURL }}"{{ if in $p.RelPermalink "/zh/news" }} class="active"{{ end }}>最新动态</a></li>
+{{ else if eq $lang "fr" }}
+<li><a href="{{ "/fr/" | relURL }}"{{ if $p.IsHome }} class="active"{{ end }}>Accueil</a></li>
+<li><a href="{{ "/fr/about/" | relURL }}"{{ if in $p.RelPermalink "/fr/about" }} class="active"{{ end }}>Qui sommes-nous</a></li>
+<li><a href="{{ "/fr/whatwedo/" | relURL }}"{{ if in $p.RelPermalink "/fr/whatwedo" }} class="active"{{ end }}>Nos actions</a></li>
+<li><a href="{{ "/fr/communities/" | relURL }}"{{ if in $p.RelPermalink "/fr/communities" }} class="active"{{ end }}>Communautés</a></li>
+<li><a href="{{ "/fr/news/" | relURL }}"{{ if in $p.RelPermalink "/fr/news" }} class="active"{{ end }}>Actualités</a></li>
+{{ else }}
+<li><a href="{{ "/en/" | relURL }}"{{ if $p.IsHome }} class="active"{{ end }}>Home</a></li>
+<li><a href="{{ "/en/about/" | relURL }}"{{ if in $p.RelPermalink "/en/about" }} class="active"{{ end }}>Who We Are</a></li>
+<li><a href="{{ "/en/whatwedo/" | relURL }}"{{ if in $p.RelPermalink "/en/whatwedo" }} class="active"{{ end }}>What We Do</a></li>
+<li><a href="{{ "/en/communities/" | relURL }}"{{ if in $p.RelPermalink "/en/communities" }} class="active"{{ end }}>Communities</a></li>
+<li><a href="{{ "/en/news/" | relURL }}"{{ if in $p.RelPermalink "/en/news" }} class="active"{{ end }}>What's New</a></li>
+{{ end }}
+</ul>
+<div class="lang-switcher">
+<a href="{{ "/zh/" | relURL }}" class="lang-btn{{ if eq $lang "zh" }} active{{ end }}">ZH</a>
+<a href="{{ "/en/" | relURL }}" class="lang-btn{{ if eq $lang "en" }} active{{ end }}">EN</a>
+<a href="{{ "/fr/" | relURL }}" class="lang-btn{{ if eq $lang "fr" }} active{{ end }}">FR</a>
+</div>
+</div>
+</nav>

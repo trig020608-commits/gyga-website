@@ -1,0 +1,91 @@
+{{ define "main" }}
+{{ $lang := .Lang }}
+<div class="page-content">
+<div class="page-header">
+<h1>{{ .Title }}</h1>
+{{ with .Params.subtitle }}<p>{{ . }}</p>{{ end }}
+</div>
+
+{{ if eq .Type "about" }}
+<div class="card">
+<h2>{{ .Params.values_title }}</h2>
+<div class="grid-3">
+{{ range .Params.values }}
+<div class="value-card"><h3>{{ .title }}</h3><p>{{ .description }}</p></div>
+{{ end }}
+</div>
+</div>
+<div class="card">
+<h2>{{ .Params.team_title }}</h2>
+<div class="section-label">{{ .Params.exec_label }}</div>
+<div class="grid-3">
+{{ range .Params.exec_members }}
+<div class="team-card"><div class="role">{{ .role }}</div><div class="name">{{ .name }}</div></div>
+{{ end }}
+</div>
+{{ with .Params.expert_label }}
+<div class="section-label" style="margin-top:24px;">{{ . }}</div>
+<p style="color:var(--gray-text);font-size:.9rem;margin-top:8px;">{{ $.Params.expert_placeholder }}</p>
+{{ end }}
+</div>
+
+{{ else if eq .Type "whatwedo" }}
+<div class="card">
+<div class="grid-2">
+{{ range .Params.programs }}
+<div class="value-card"><h3>{{ .title }}</h3><p>{{ .description }}</p></div>
+{{ end }}
+</div>
+</div>
+
+{{ else if eq .Type "communities" }}
+<div class="card">
+<h2>{{ .Params.membership_title }}</h2>
+{{ range .Params.membership_types }}
+<div style="margin-bottom:16px;">
+<div class="section-label" style="margin-top:16px;">{{ .title }}</div>
+<p style="color:var(--gray-text);font-size:.9rem;">{{ .description }}</p>
+</div>
+{{ end }}
+</div>
+<div class="card">
+<h2>{{ .Params.form_title }}</h2>
+<p>{{ .Params.form_subtitle }}</p>
+<form style="margin-top:20px;" onsubmit="return false;">
+<div class="form-grid">
+<div class="form-group"><label>{{ .Params.field_name }}</label><input type="text"/></div>
+<div class="form-group"><label>{{ .Params.field_email }}</label><input type="email"/></div>
+<div class="form-group form-full"><label>{{ .Params.field_type }}</label>
+<select>{{ range .Params.membership_options }}<option>{{ . }}</option>{{ end }}</select>
+</div>
+</div>
+<button class="btn btn-primary" type="submit">{{ .Params.form_submit }}</button>
+</form>
+</div>
+{{ with .Params.donate_title }}
+<div class="card"><h2>{{ . }}</h2><p style="color:var(--gray-text);">{{ $.Params.donate_text }}</p></div>
+{{ end }}
+
+{{ else if eq .Type "news" }}
+{{ $allNews := where .Site.RegularPages "Section" "news" }}
+{{ $langNews := where $allNews "Lang" $lang }}
+{{ if $langNews }}
+{{ range $langNews.ByDate.Reverse }}
+<a class="news-item" href="{{ .RelPermalink }}">
+<div class="news-meta">
+{{ with .Params.category }}<span class="news-tag">{{ . }}</span>{{ end }}
+<span class="news-date">{{ .Date.Format "2006-01-02" }}</span>
+</div>
+<div class="news-title">{{ .Title }}</div>
+{{ with .Summary }}<div class="news-excerpt">{{ . }}</div>{{ end }}
+</a>
+{{ end }}
+{{ else }}
+<div class="card"><p style="color:var(--gray-text);text-align:center;padding:32px 0;">{{ .Params.empty_message }}</p></div>
+{{ end }}
+
+{{ else }}
+<div class="card">{{ .Content }}</div>
+{{ end }}
+</div>
+{{ end }}

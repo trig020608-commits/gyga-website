@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="page-content">
+<div class="hero">
+<div class="hero-label">GYGA</div>
+<h1>{{ .Params.hero_title }}</h1>
+</div>
+<div class="card">
+<h2>{{ .Params.intro_title }}</h2>
+<p>{{ .Params.intro_text }}</p>
+<div class="btn-group">
+<a href="{{ .Params.btn_about_url }}" class="btn btn-primary">{{ .Params.btn_about }}</a>
+<a href="{{ .Params.btn_join_url }}" class="btn btn-outline">{{ .Params.btn_join }}</a>
+</div>
+</div>
+</div>
+{{ end }}
