@@ -2,123 +2,123 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>https://trig020608-commits.github.io/gyga-website/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/categories/"
+                href="https://trig020608-commits.github.io/gyga-website/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/categories/"
+                href="https://trig020608-commits.github.io/gyga-website/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="https://trig020608-commits.github.io/gyga-website/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/communities/</loc>
+    <loc>https://trig020608-commits.github.io/gyga-website/en/communities/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/communities/"
+                href="https://trig020608-commits.github.io/gyga-website/zh/communities/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/communities/"
+                href="https://trig020608-commits.github.io/gyga-website/fr/communities/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/communities/"
+                href="https://trig020608-commits.github.io/gyga-website/en/communities/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>https://trig020608-commits.github.io/gyga-website/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/"
+                href="https://trig020608-commits.github.io/gyga-website/zh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/"
+                href="https://trig020608-commits.github.io/gyga-website/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="https://trig020608-commits.github.io/gyga-website/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>https://trig020608-commits.github.io/gyga-website/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/tags/"
+                href="https://trig020608-commits.github.io/gyga-website/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/tags/"
+                href="https://trig020608-commits.github.io/gyga-website/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="https://trig020608-commits.github.io/gyga-website/en/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/whatwedo/</loc>
+    <loc>https://trig020608-commits.github.io/gyga-website/en/whatwedo/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/whatwedo/"
+                href="https://trig020608-commits.github.io/gyga-website/zh/whatwedo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/whatwedo/"
+                href="https://trig020608-commits.github.io/gyga-website/fr/whatwedo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/whatwedo/"
+                href="https://trig020608-commits.github.io/gyga-website/en/whatwedo/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/news/</loc>
+    <loc>https://trig020608-commits.github.io/gyga-website/en/news/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/news/"
+                href="https://trig020608-commits.github.io/gyga-website/zh/news/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/news/"
+                href="https://trig020608-commits.github.io/gyga-website/fr/news/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/news/"
+                href="https://trig020608-commits.github.io/gyga-website/en/news/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/about/</loc>
+    <loc>https://trig020608-commits.github.io/gyga-website/en/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/about/"
+                href="https://trig020608-commits.github.io/gyga-website/zh/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/about/"
+                href="https://trig020608-commits.github.io/gyga-website/fr/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/about/"
+                href="https://trig020608-commits.github.io/gyga-website/en/about/"
                 />
   </url>
 </urlset>
