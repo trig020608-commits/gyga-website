@@ -2,7 +2,9 @@
 {{ $p := . }}
 <nav class="navbar">
 <div class="navbar-inner">
-<a href="{{ "/" | relLangURL }}" class="navbar-logo">GYGA</a>
+<a href="{{ "/" | relLangURL }}" class="navbar-logo">
+<img src="{{ "images/logo.png" | relURL }}" alt="GYGA Logo" class="navbar-logo-img"/>GYGA
+</a>
 <button class="menu-toggle" aria-label="menu"><span></span><span></span><span></span></button>
 <ul class="navbar-nav">
 {{ if eq $lang "zh" }}
