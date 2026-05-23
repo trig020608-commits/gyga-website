@@ -23,7 +23,7 @@ exec_members:
     name: "Qun Zheng"
   - role: "Secretary General / 秘书长"
     name: "Xuebing Bai"
-  - role: "Treasurer / 财务主管"
+  - role: "Co-Founder & Vice President"
     name: "Xin Zhou"
 expert_label: "EXPERT COMMITTEE"
 expert_placeholder: "Expert committee profiles will be added soon."

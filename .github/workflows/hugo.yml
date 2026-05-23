@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - preview
 
 permissions:
   contents: read
@@ -18,10 +19,21 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout main
         uses: actions/checkout@v4
         with:
+          ref: main
           submodules: recursive
+          path: main-src
+
+      - name: Checkout preview (if exists)
+        id: checkout-preview
+        continue-on-error: true
+        uses: actions/checkout@v4
+        with:
+          ref: preview
+          submodules: recursive
+          path: preview-src
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -29,13 +41,25 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Build
-        run: hugo --minify --baseURL "https://ungyga.org/"
+      - name: Build production (main)
+        run: |
+          cd main-src
+          hugo --minify --baseURL "https://ungyga.org/"
+          mkdir -p ../dist
+          cp -r public/* ../dist/
+
+      - name: Build preview
+        if: steps.checkout-preview.outcome == 'success'
+        run: |
+          cd preview-src
+          hugo --minify --baseURL "https://ungyga.org/preview/"
+          mkdir -p ../dist/preview
+          cp -r public/* ../dist/preview/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: ./dist
 
   deploy:
     environment:

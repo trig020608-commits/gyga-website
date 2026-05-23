@@ -23,7 +23,7 @@ exec_members:
     name: "Qun Zheng"
   - role: "秘书长 / Secretary General"
     name: "Xuebing Bai"
-  - role: "财务主管 / Treasurer"
+  - role: "联合创始人 & 副主席"
     name: "Xin Zhou"
 expert_label: "专家委员会"
 expert_placeholder: "专家委员会成员信息预留中。"
