@@ -6,6 +6,8 @@ category: "Voyage d'études"
 
 En août 2025, le Centre sino-suisse d'échanges culturels internationaux (CSIC) a accueilli à Genève une délégation de l'École du Marxisme de l'Université du Shanxi pour un voyage d'études sur le thème **« Raviver l'Esprit Rouge, Explorer la Gouvernance Mondiale »**.
 
+<!--more-->
+
 ![Université du Shanxi](/images/news/shanxi-university.jpg)
 
 ## À propos du CSIC
