@@ -33,6 +33,13 @@ body{font-family:var(--font-main);color:var(--black);background:var(--gray-bg);l
 .team-card{background:var(--white);border:1px solid var(--gray-border);border-radius:var(--card-radius);padding:16px 20px}
 .team-card .role{font-size:.8rem;color:var(--gray-text);margin-bottom:4px}
 .team-card .name{font-size:1rem;font-weight:700;color:var(--black)}
+.team-list{display:flex;flex-direction:column;gap:16px;margin-top:16px}
+.team-card-bio{background:var(--white);border:1px solid var(--gray-border);border-radius:var(--card-radius);padding:20px 24px}
+.team-card-bio .role{font-size:.8rem;color:var(--gray-text);margin-bottom:4px;text-transform:uppercase;letter-spacing:.05em}
+.team-card-bio .name{font-size:1.05rem;font-weight:700;color:var(--black);margin-bottom:0}
+.team-bio{color:var(--gray-text);font-size:.88rem;line-height:1.7;margin-top:12px;border-top:1px solid var(--gray-border);padding-top:12px}
+.team-card-header{display:flex;align-items:center;gap:20px}
+.team-photo{width:80px;height:80px;border-radius:50%;object-fit:cover;object-position:top;flex-shrink:0;border:2px solid var(--gray-border)}
 .btn{display:inline-block;padding:10px 24px;border-radius:8px;font-size:.9rem;font-weight:600;text-decoration:none;cursor:pointer;transition:all var(--transition);border:none}
 .btn-primary{background:var(--blue);color:white}
 .btn-primary:hover{background:var(--blue-dark);transform:translateY(-1px)}
@@ -63,6 +70,8 @@ body{font-family:var(--font-main);color:var(--black);background:var(--gray-bg);l
 .cookie-banner p{font-size:.85rem;color:var(--gray-text)}
 .cookie-actions{display:flex;gap:8px;flex-shrink:0}
 .page-header{background:var(--white);border-radius:var(--card-radius);padding:32px;margin-bottom:20px;box-shadow:var(--shadow)}
+.article-content img{max-width:480px;width:100%;height:auto;border-radius:8px;margin:16px auto;display:block}
+.article-content img[alt*="山西大学"],.article-content img[alt*="Shanxi"],.article-content img[alt*="Université du Shanxi"]{max-width:280px}
 .page-header h1{font-size:1.8rem;font-weight:700;color:var(--black);margin-bottom:8px}
 .page-header p{color:var(--gray-text);font-size:.95rem}
 @media(max-width:900px){.grid-3{grid-template-columns:1fr 1fr}}

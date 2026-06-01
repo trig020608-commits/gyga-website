@@ -18,9 +18,19 @@
 <div class="card">
 <h2>{{ .Params.team_title }}</h2>
 <div class="section-label">{{ .Params.exec_label }}</div>
-<div class="grid-3">
+<div class="team-list">
 {{ range .Params.exec_members }}
-<div class="team-card"><div class="role">{{ .role }}</div><div class="name">{{ .name }}</div></div>
+{{ $m := . }}
+<div class="team-card-bio">
+  <div class="team-card-header">
+    {{ with $m.photo }}<img src="{{ . }}" alt="{{ $m.name }}" class="team-photo"/>{{ end }}
+    <div>
+      <div class="role">{{ $m.role }}</div>
+      <div class="name">{{ $m.name }}{{ with $m.name_zh }} · {{ . }}{{ end }}{{ with $m.name_en }} · {{ . }}{{ end }}</div>
+    </div>
+  </div>
+  {{ with $m.bio }}<p class="team-bio">{{ . }}</p>{{ end }}
+</div>
 {{ end }}
 </div>
 {{ with .Params.expert_label }}
@@ -28,6 +38,23 @@
 <p style="color:var(--gray-text);font-size:.9rem;margin-top:8px;">{{ $.Params.expert_placeholder }}</p>
 {{ end }}
 </div>
+{{ with .Params.contact_title }}
+<div class="card">
+<h2>{{ . }}</h2>
+<div class="grid-2" style="margin-top:16px;">
+<div class="value-card">
+  <h3>{{ $.Params.hq_label }}</h3>
+  <p>{{ $.Params.hq_address }}</p>
+  <p style="margin-top:8px;"><a href="mailto:{{ $.Params.hq_email }}" style="color:var(--blue);">{{ $.Params.hq_email }}</a></p>
+</div>
+<div class="value-card">
+  <h3>{{ $.Params.beijing_label }}</h3>
+  <p>{{ $.Params.beijing_address }}</p>
+  <p style="margin-top:8px;"><a href="mailto:{{ $.Params.beijing_email }}" style="color:var(--blue);">{{ $.Params.beijing_email }}</a></p>
+</div>
+</div>
+</div>
+{{ end }}
 
 {{ else if eq .Type "whatwedo" }}
 <div class="card">
@@ -66,26 +93,14 @@
 <div class="card"><h2>{{ . }}</h2><p style="color:var(--gray-text);">{{ $.Params.donate_text }}</p></div>
 {{ end }}
 
-{{ else if eq .Type "news" }}
-{{ $allNews := where .Site.RegularPages "Section" "news" }}
-{{ $langNews := where $allNews "Lang" $lang }}
-{{ if $langNews }}
-{{ range $langNews.ByDate.Reverse }}
-<a class="news-item" href="{{ .RelPermalink }}">
-<div class="news-meta">
-{{ with .Params.category }}<span class="news-tag">{{ . }}</span>{{ end }}
+{{ else }}
+<div class="card">
+{{ if .Params.category }}<div class="news-meta" style="margin-bottom:16px;">
+<span class="news-tag">{{ .Params.category }}</span>
 <span class="news-date">{{ .Date.Format "2006-01-02" }}</span>
+</div>{{ end }}
+<div class="article-content">{{ .Content }}</div>
 </div>
-<div class="news-title">{{ .Title }}</div>
-{{ with .Summary }}<div class="news-excerpt">{{ . }}</div>{{ end }}
-</a>
-{{ end }}
-{{ else }}
-<div class="card"><p style="color:var(--gray-text);text-align:center;padding:32px 0;">{{ .Params.empty_message }}</p></div>
-{{ end }}
-
-{{ else }}
-<div class="card">{{ .Content }}</div>
 {{ end }}
 </div>
 {{ end }}
