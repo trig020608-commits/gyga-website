@@ -6,6 +6,8 @@ category: "Study Tour"
 
 In August 2025, the China-Switzerland International Cultural Exchange Centre (CSIC) welcomed a delegation from the School of Marxism at Shanxi University to Geneva, Switzerland, for the **"Revisiting the Red Spirit, Exploring Global Governance"** study tour.
 
+<!--more-->
+
 ![Shanxi University](/images/news/shanxi-university.jpg)
 
 ## About CSIC
