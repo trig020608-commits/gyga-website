@@ -4,15 +4,15 @@ date: 2025-08-15
 category: "Voyage d'études"
 ---
 
-En août 2025, le Centre sino-suisse d'échanges culturels internationaux (CSIC) a accueilli à Genève une délégation de l'École du Marxisme de l'Université du Shanxi pour un voyage d'études sur le thème **« Raviver l'Esprit Rouge, Explorer la Gouvernance Mondiale »**.
+En août 2025, l'Association mondiale de gouvernance des jeunes (GYGA) a accueilli à Genève une délégation de l'École du Marxisme de l'Université du Shanxi pour un voyage d'études sur le thème **« Raviver l'Esprit Rouge, Explorer la Gouvernance Mondiale »**.
 
 <!--more-->
 
 ![Université du Shanxi](/images/news/shanxi-university.jpg)
 
-## À propos du CSIC
+## À propos de GYGA
 
-Fondé en 2018 et dont le siège est à Genève, le CSIC est la seule institution établie en Suisse spécialisée dans les échanges éducatifs internationaux et la formation aux carrières onusiennes. Il a coordonné des délégations ministérielles, provinciales et universitaires en visite en Suisse et auprès des organisations internationales, constituant un pont essentiel entre la Chine et la Suisse dans les domaines de l'éducation, de la culture et de la gouvernance internationale.
+Dont le siège est à Genève, l'Association mondiale de gouvernance des jeunes (GYGA) est spécialisée dans les échanges éducatifs internationaux et la formation aux carrières onusiennes. Elle a coordonné des délégations ministérielles, provinciales et universitaires en visite en Suisse et auprès des organisations internationales, constituant un pont essentiel entre la Chine et la communauté internationale dans les domaines de l'éducation, de la culture et de la gouvernance mondiale.
 
 ---
 
@@ -42,7 +42,7 @@ La délégation a exploré la Vieille Ville médiévale de Genève et visité l'
 
 Au cœur du programme figuraient des visites approfondies de l'Office des Nations Unies à Genève (ONUG), de l'Organisation internationale du Travail (OIT) et du Comité international de la Croix-Rouge (CICR). Les étudiants ont assisté à des conférences d'experts de haut niveau, dont un Directeur général adjoint de l'OIT et un ancien Secrétaire général du CICR, acquérant une connaissance directe des mécanismes de gouvernance mondiale, de la diplomatie multilatérale et des politiques publiques internationales.
 
-> « Dans cette formation onusienne soigneusement conçue par le CSIC, nous avons ressenti le pouls de la gouvernance mondiale et été témoins de la puissance de l'engagement international. Chaque étape a élargi nos horizons et approfondi notre réflexion. » — Témoignage étudiant
+> « Dans cette formation onusienne soigneusement conçue par GYGA, nous avons ressenti le pouls de la gouvernance mondiale et été témoins de la puissance de l'engagement international. Chaque étape a élargi nos horizons et approfondi notre réflexion. » — Témoignage étudiant
 
 ---
 
