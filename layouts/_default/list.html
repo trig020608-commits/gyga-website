@@ -68,12 +68,11 @@
 {{ else if eq .Type "communities" }}
 <div class="card">
 <h2>{{ .Params.membership_title }}</h2>
+<div class="grid-2" style="margin-top:16px;">
 {{ range .Params.membership_types }}
-<div style="margin-bottom:16px;">
-<div class="section-label" style="margin-top:16px;">{{ .title }}</div>
-<p style="color:var(--gray-text);font-size:.9rem;">{{ .description }}</p>
-</div>
+<div class="value-card"><h3>{{ .title }}</h3><p>{{ .description }}</p></div>
 {{ end }}
+</div>
 </div>
 <div class="card">
 <h2>{{ .Params.form_title }}</h2>
