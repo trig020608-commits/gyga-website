@@ -27,10 +27,18 @@
 <li><a href="{{ "en/news/" | relURL }}"{{ if in $p.RelPermalink "/en/news" }} class="active"{{ end }}>What's New</a></li>
 {{ end }}
 </ul>
+{{ $zhURL := "zh/" | relURL }}
+{{ $enURL := "en/" | relURL }}
+{{ $frURL := "fr/" | relURL }}
+{{ range $p.AllTranslations }}
+  {{ if eq .Lang "zh" }}{{ $zhURL = .RelPermalink }}{{ end }}
+  {{ if eq .Lang "en" }}{{ $enURL = .RelPermalink }}{{ end }}
+  {{ if eq .Lang "fr" }}{{ $frURL = .RelPermalink }}{{ end }}
+{{ end }}
 <div class="lang-switcher">
-<a href="{{ "zh/" | relURL }}" class="lang-btn{{ if eq $lang "zh" }} active{{ end }}">ZH</a>
-<a href="{{ "en/" | relURL }}" class="lang-btn{{ if eq $lang "en" }} active{{ end }}">EN</a>
-<a href="{{ "fr/" | relURL }}" class="lang-btn{{ if eq $lang "fr" }} active{{ end }}">FR</a>
+<a href="{{ $zhURL }}" class="lang-btn{{ if eq $lang "zh" }} active{{ end }}">ZH</a>
+<a href="{{ $enURL }}" class="lang-btn{{ if eq $lang "en" }} active{{ end }}">EN</a>
+<a href="{{ $frURL }}" class="lang-btn{{ if eq $lang "fr" }} active{{ end }}">FR</a>
 </div>
 </div>
 </nav>
