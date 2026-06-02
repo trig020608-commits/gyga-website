@@ -4,15 +4,15 @@ date: 2025-08-15
 category: "Study Tour"
 ---
 
-In August 2025, the China-Switzerland International Cultural Exchange Centre (CSIC) welcomed a delegation from the School of Marxism at Shanxi University to Geneva, Switzerland, for the **"Revisiting the Red Spirit, Exploring Global Governance"** study tour.
+In August 2025, the Global Youth Governance Association (GYGA) welcomed a delegation from the School of Marxism at Shanxi University to Geneva, Switzerland, for the **"Revisiting the Red Spirit, Exploring Global Governance"** study tour.
 
 <!--more-->
 
 ![Shanxi University](/images/news/shanxi-university.jpg)
 
-## About CSIC
+## About GYGA
 
-Founded in 2018 and headquartered in Geneva, CSIC is the only institution established in Switzerland dedicated to international educational exchange and UN talent development. It has coordinated ministerial, provincial, and university delegations visiting Switzerland and international organisations, and serves as a key bridge between China and Switzerland in education, culture, and international governance.
+Headquartered in Geneva, the Global Youth Governance Association (GYGA) is dedicated to international educational exchange and UN talent development. It has coordinated ministerial, provincial, and university delegations visiting Switzerland and international organisations, and serves as a key bridge connecting China and the international community in education, culture, and global governance.
 
 ---
 
@@ -42,7 +42,7 @@ The delegation explored Geneva's medieval Old Town and visited the Hôtel de Vil
 
 The centrepiece of the programme was in-depth visits to the UN Office at Geneva (UNOG), the International Labour Organization (ILO), and the International Committee of the Red Cross (ICRC). Students attended expert lectures by senior officials including a Deputy Director-General of the ILO and a former Secretary-General of the ICRC, gaining first-hand understanding of global governance mechanisms, multilateral diplomacy, and international public policy.
 
-> "In this UN practical training carefully designed by CSIC, we felt the pulse of global governance and witnessed the power of international commitment. Every step broadened our horizons and deepened our thinking." — Student reflection
+> "In this UN practical training carefully designed by GYGA, we felt the pulse of global governance and witnessed the power of international commitment. Every step broadened our horizons and deepened our thinking." — Student reflection
 
 ---
 

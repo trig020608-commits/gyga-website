@@ -4,7 +4,7 @@ date: 2025-10-28
 category: "News"
 ---
 
-On October 28, 2025, the Global Model World Health Assembly 2025, co-organized by the World Health Organization (WHO) and the World Federation of United Nations Associations (WFUNA), officially opened at WHO Headquarters in Geneva, Switzerland. For the first time, a joint Chinese delegation was formed under the coordination of CSIC, bringing together students from multiple universities and high schools across China.
+On October 28, 2025, the Global Model World Health Assembly 2025, co-organized by the World Health Organization (WHO) and the World Federation of United Nations Associations (WFUNA), officially opened at WHO Headquarters in Geneva, Switzerland. For the first time, a joint Chinese delegation was formed under the coordination of GYGA, bringing together students from multiple universities and high schools across China.
 
 <!--more-->
 
@@ -12,7 +12,7 @@ On October 28, 2025, the Global Model World Health Assembly 2025, co-organized b
 
 ## The First Cross-Level Chinese Joint Delegation
 
-For the first time, a joint Chinese delegation was formed under the coordination of the China-Switzerland International Cultural Exchange and Trade Promotion Centre (CSIC), bringing together students from the Foreign Language Teaching and Research Press, China University of Geosciences (Wuhan), Huazhong Agricultural University, Northeast Forestry University, Communication University of China, Liaoning University, and Shandong Provincial Experimental High School. Students from Peking University, Tsinghua University, and other leading institutions also participated.
+For the first time, a joint Chinese delegation was formed under the coordination of the Global Youth Governance Association (GYGA), bringing together students from the Foreign Language Teaching and Research Press, China University of Geosciences (Wuhan), Huazhong Agricultural University, Northeast Forestry University, Communication University of China, Liaoning University, and Shandong Provincial Experimental High School. Students from Peking University, Tsinghua University, and other leading institutions also participated.
 
 This marked the **first time** Chinese institutions jointly organized a cross-level delegation — spanning high school, undergraduate, master's, and doctoral students — to participate in a global Model UN assembly.
 

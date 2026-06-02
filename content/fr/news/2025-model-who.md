@@ -4,7 +4,7 @@ date: 2025-10-28
 category: "Actualités"
 ---
 
-Le 28 octobre 2025, l'Assemblée mondiale de la santé simulée 2025 (Global Model WHO), co-organisée par l'Organisation mondiale de la santé (OMS) et la Fédération mondiale des associations pour les Nations Unies (WFUNA), a officiellement ouvert ses portes au siège de l'OMS à Genève. Pour la première fois, une délégation chinoise commune a été constituée sous l'égide du CSIC, réunissant des étudiants de plusieurs universités et lycées de Chine.
+Le 28 octobre 2025, l'Assemblée mondiale de la santé simulée 2025 (Global Model WHO), co-organisée par l'Organisation mondiale de la santé (OMS) et la Fédération mondiale des associations pour les Nations Unies (WFUNA), a officiellement ouvert ses portes au siège de l'OMS à Genève. Pour la première fois, une délégation chinoise commune a été constituée sous l'égide de GYGA, réunissant des étudiants de plusieurs universités et lycées de Chine.
 
 <!--more-->
 
@@ -12,7 +12,7 @@ Le 28 octobre 2025, l'Assemblée mondiale de la santé simulée 2025 (Global Mod
 
 ## La première délégation chinoise inter-niveaux
 
-Pour la première fois, une délégation chinoise commune a été constituée sous l'égide du Centre sino-suisse d'échanges culturels et de promotion commerciale (CSIC), réunissant des étudiants de plusieurs grandes universités chinoises — dont l'Université des géosciences de Chine (Wuhan), l'Université agricole centrale de Chine, l'Université de communication de Chine et l'Université de Liaoning — ainsi que des lycéens de l'École expérimentale provinciale du Shandong. Des étudiants de l'Université de Pékin, de l'Université Tsinghua et d'autres établissements renommés ont également participé.
+Pour la première fois, une délégation chinoise commune a été constituée sous l'égide de l'Association mondiale de gouvernance des jeunes (GYGA), réunissant des étudiants de plusieurs grandes universités chinoises — dont l'Université des géosciences de Chine (Wuhan), l'Université agricole centrale de Chine, l'Université de communication de Chine et l'Université de Liaoning — ainsi que des lycéens de l'École expérimentale provinciale du Shandong. Des étudiants de l'Université de Pékin, de l'Université Tsinghua et d'autres établissements renommés ont également participé.
 
 Cette délégation est la **première** en Chine à réunir, dans un cadre inter-niveaux, des lycéens, des étudiants de licence, de master et de doctorat pour une assemblée mondiale de simulation de l'ONU.
 
