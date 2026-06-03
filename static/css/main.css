@@ -28,6 +28,8 @@ body{font-family:var(--font-main);color:var(--black);background:var(--gray-bg);l
 .value-card{background:var(--white);border:1px solid var(--gray-border);border-radius:var(--card-radius);padding:20px;transition:all var(--transition)}
 .value-card:hover{box-shadow:var(--shadow-hover);border-color:var(--blue);transform:translateY(-2px)}
 .value-card h3{color:var(--blue);font-size:1rem;font-weight:600;margin-bottom:8px}
+.value-card a{text-underline-offset:4px;text-decoration-thickness:1px}
+.footer-links a{text-underline-offset:4px;text-decoration-thickness:1px}
 .value-card p{color:var(--gray-text);font-size:.88rem;line-height:1.5}
 .section-label{color:var(--blue);font-size:.8rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:12px;margin-top:24px}
 .team-card{background:var(--white);border:1px solid var(--gray-border);border-radius:var(--card-radius);padding:16px 20px}
