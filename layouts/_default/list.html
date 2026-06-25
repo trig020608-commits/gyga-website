@@ -77,21 +77,37 @@
 <div class="card">
 <h2>{{ .Params.form_title }}</h2>
 <p>{{ .Params.form_subtitle }}</p>
-<form style="margin-top:20px;" onsubmit="return false;">
+<div id="gyga-form-success" style="display:none;background:var(--blue-light);border:1px solid var(--blue);border-radius:8px;padding:20px 24px;margin-top:20px;">
+<p style="color:var(--blue);font-weight:600;margin-bottom:4px;">{{ .Params.form_success_title }}</p>
+<p style="color:var(--gray-text);font-size:.9rem;">{{ .Params.form_success_text }}</p>
+</div>
+<form id="gyga-membership-form" style="margin-top:20px;"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSdxyj-YH9qOXrY7_MnnnQGMxJG93ENpQ2OdWAGYdFM4jaiQsQ/formResponse"
+  method="POST" target="gyga-form-iframe">
 <div class="form-grid">
-<div class="form-group"><label>{{ .Params.field_name }}</label><input type="text"/></div>
-<div class="form-group"><label>{{ .Params.field_email }}</label><input type="email"/></div>
-<div class="form-group"><label>{{ .Params.field_institution }}</label><input type="text"/></div>
-<div class="form-group"><label>{{ .Params.field_role }}</label><input type="text"/></div>
+<div class="form-group"><label>{{ .Params.field_name }}</label><input type="text" name="entry.301620101" required/></div>
+<div class="form-group"><label>{{ .Params.field_email }}</label><input type="email" name="entry.1211187599" required/></div>
+<div class="form-group"><label>{{ .Params.field_institution }}</label><input type="text" name="entry.1782182412" required/></div>
+<div class="form-group"><label>{{ .Params.field_role }}</label><input type="text" name="entry.2091014816" required/></div>
 <div class="form-group form-full"><label>{{ .Params.field_type }}</label>
-<select>{{ range .Params.membership_options }}<option>{{ . }}</option>{{ end }}</select>
+<select name="entry.1552246728">{{ range .Params.membership_options }}<option>{{ . }}</option>{{ end }}</select>
 </div>
 <div class="form-group form-full"><label>{{ .Params.field_motivation }}</label>
-<textarea rows="4" style="resize:vertical;"></textarea>
+<textarea name="entry.538244142" rows="4" style="resize:vertical;" required></textarea>
 </div>
 </div>
 <button class="btn btn-primary" type="submit">{{ .Params.form_submit }}</button>
 </form>
+<iframe name="gyga-form-iframe" style="display:none;"></iframe>
+<script>
+document.getElementById('gyga-membership-form').addEventListener('submit',function(){
+  var form=this;
+  setTimeout(function(){
+    form.style.display='none';
+    document.getElementById('gyga-form-success').style.display='block';
+  },800);
+});
+</script>
 </div>
 {{ with .Params.donate_title }}
 <div class="card"><h2>{{ . }}</h2><p style="color:var(--gray-text);">{{ $.Params.donate_text }}</p></div>

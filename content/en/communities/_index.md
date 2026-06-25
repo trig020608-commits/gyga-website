@@ -20,6 +20,8 @@ membership_options:
   - "Passive Member / Partner"
 field_motivation: "Motivation (please describe briefly, under 100 words)"
 form_submit: "Submit Application"
+form_success_title: "Application submitted!"
+form_success_text: "Thank you for applying. We will be in touch with you shortly."
 donate_title: "Donations & Support"
 donate_text: "Support GYGA's youth governance programs and initiatives."
 ---

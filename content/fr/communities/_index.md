@@ -20,6 +20,8 @@ membership_options:
   - "Membre passif / Partenaire"
 field_motivation: "Motivation (décrivez brièvement, moins de 100 mots)"
 form_submit: "Soumettre la candidature"
+form_success_title: "Candidature soumise !"
+form_success_text: "Merci pour votre candidature. Nous vous contacterons dans les meilleurs délais."
 donate_title: "Dons et soutien"
 donate_text: "Soutenez les programmes de gouvernance des jeunes de GYGA."
 ---

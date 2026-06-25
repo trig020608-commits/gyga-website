@@ -20,6 +20,8 @@ membership_options:
   - "被动会员 / 合作伙伴"
 field_motivation: "申请动机（请简述，100字以内）"
 form_submit: "提交申请"
+form_success_title: "申请已提交！"
+form_success_text: "感谢您的申请，我们将尽快与您联系。"
 donate_title: "捐赠与资助"
 donate_text: "用于支持青年治理相关项目。"
 ---
