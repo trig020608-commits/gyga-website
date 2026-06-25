@@ -81,9 +81,7 @@
 <p style="color:var(--blue);font-weight:600;margin-bottom:4px;">{{ .Params.form_success_title }}</p>
 <p style="color:var(--gray-text);font-size:.9rem;">{{ .Params.form_success_text }}</p>
 </div>
-<form id="gyga-membership-form" style="margin-top:20px;"
-  action="https://docs.google.com/forms/d/e/1FAIpQLSdxyj-YH9qOXrY7_MnnnQGMxJG93ENpQ2OdWAGYdFM4jaiQsQ/formResponse"
-  method="POST" target="gyga-form-iframe">
+<form id="gyga-membership-form" style="margin-top:20px;">
 <div class="form-grid">
 <div class="form-group"><label>{{ .Params.field_name }}</label><input type="text" name="entry.301620101" required/></div>
 <div class="form-group"><label>{{ .Params.field_email }}</label><input type="email" name="entry.1211187599" required/></div>
@@ -98,14 +96,18 @@
 </div>
 <button class="btn btn-primary" type="submit">{{ .Params.form_submit }}</button>
 </form>
-<iframe name="gyga-form-iframe" style="display:none;"></iframe>
 <script>
-document.getElementById('gyga-membership-form').addEventListener('submit',function(){
+document.getElementById('gyga-membership-form').addEventListener('submit',function(e){
+  e.preventDefault();
   var form=this;
-  setTimeout(function(){
-    form.style.display='none';
-    document.getElementById('gyga-form-success').style.display='block';
-  },800);
+  var body=new URLSearchParams(new FormData(form)).toString();
+  fetch('https://docs.google.com/forms/d/e/1FAIpQLSdxyj-YH9qOXrY7_MnnnQGMxJG93ENpQ2OdWAGYdFM4jaiQsQ/formResponse',{
+    method:'POST',mode:'no-cors',
+    headers:{'Content-Type':'application/x-www-form-urlencoded'},
+    body:body
+  });
+  form.style.display='none';
+  document.getElementById('gyga-form-success').style.display='block';
 });
 </script>
 </div>
