@@ -8,7 +8,7 @@ From 2 to 4 July 2026, the Global Digital Economy Conference 2026 (GDEC 2026) an
 
 <!--more-->
 
-![Global Digital Economy Conference 2026 · China National Convention Center, Beijing](/images/news/gdec-2026-banner.jpg)
+![Xie Yining and Liu Yunchuan with delegates at GDEC 2026](/images/news/gdec-2026-volunteers.jpg)
 
 CUEB and GYGA jointly selected students Xie Yining and Liu Yunchuan as volunteers at the UN International Trade Centre (ITC) booth. Leveraging their bilingual professional skills, the two students delivered comprehensive volunteer services on the international stage, showcasing the competence and global perspective of China's younger generation.
 
@@ -24,7 +24,7 @@ During the event, the two volunteers divided responsibilities and worked efficie
 
 The frontline experience brought comprehensive growth for both students. Xie Yining translated classroom trade theory into real-world international business practice through exchanges with overseas guests, significantly improving cross-cultural communication skills. Liu Yunchuan built a concrete understanding of international economic and trade affairs, developing on-the-spot presentation skills and structured management thinking. Their proactive approach to reflection and improvement is a vivid embodiment of CUEB's "theory plus practice" talent development model.
 
-![Xie Yining and Liu Yunchuan with delegates at GDEC 2026](/images/news/gdec-2026-volunteers.jpg)
+![Global Digital Economy Conference 2026 · China National Convention Center, Beijing](/images/news/gdec-2026-banner.jpg)
 
 As a leading Beijing university for international organisation talent cultivation and an innovation practice base, CUEB has built a full-chain training system encompassing coursework, practical training, and internship placement. By integrating classroom theory with real-world international business scenarios, CUEB continuously sends students to international exhibitions and multilateral institution projects. This volunteer placement, facilitated through GYGA's partnership network, further broadened students' access to international practice opportunities.
 

@@ -8,7 +8,7 @@ Du 2 au 4 juillet 2026, la Conférence mondiale sur l'économie numérique 2026 
 
 <!--more-->
 
-![Conférence mondiale sur l'économie numérique 2026 · Centre national de conférences de Chine, Pékin](/images/news/gdec-2026-banner.jpg)
+![Xie Yining et Liu Yunchuan avec des participants à la GDEC 2026](/images/news/gdec-2026-volunteers.jpg)
 
 La CUEB et GYGA ont conjointement sélectionné les étudiants Xie Yining et Liu Yunchuan comme volontaires au stand du Centre du commerce international (ITC) des Nations Unies. Grâce à leurs compétences professionnelles bilingues, les deux étudiants ont assuré un service bénévole complet sur la scène internationale, démontrant les compétences et la vision mondiale de la jeune génération chinoise.
 
@@ -24,7 +24,7 @@ Pendant l'événement, les deux volontaires ont réparti les responsabilités et
 
 Cette expérience de terrain a apporté une croissance complète aux deux étudiants. Xie Yining a traduit la théorie commerciale académique en pratique réelle des affaires internationales à travers des échanges avec des invités étrangers, améliorant significativement ses compétences en communication interculturelle. Liu Yunchuan a développé une compréhension concrète des affaires économiques et commerciales internationales, renforçant ses capacités de présentation en temps réel et sa pensée de gestion structurée. Leur démarche proactive de réflexion et d'amélioration incarne le modèle de formation « théorie plus pratique » de la CUEB.
 
-![Xie Yining et Liu Yunchuan avec des participants à la GDEC 2026](/images/news/gdec-2026-volunteers.jpg)
+![Conférence mondiale sur l'économie numérique 2026 · Centre national de conférences de Chine, Pékin](/images/news/gdec-2026-banner.jpg)
 
 En tant qu'université pionnière de Pékin pour la formation de talents destinés aux organisations internationales et base d'innovation pratique, la CUEB a mis en place un système de formation complet incluant les cours, la formation pratique et le placement en stage. En intégrant la théorie académique aux scénarios réels des affaires internationales, la CUEB envoie continuellement des étudiants dans des expositions internationales et des projets d'institutions multilatérales. Ce placement de bénévoles, facilité par le réseau de partenariat de GYGA, a encore élargi l'accès des étudiants aux opportunités de pratique internationale.
 
