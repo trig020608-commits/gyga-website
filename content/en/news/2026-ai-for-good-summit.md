@@ -14,6 +14,8 @@ The **AI for Good Global Summit** and **WSIS Forum 2026**, two flagship events o
 
 On 6 July, at the invitation of the Executive Director of the Global Centre for SDGs and Leadership Development, Xuebing Bai attended a thematic conference and awards ceremony co-organised by the Centre and the ITU. During the event, he held warm exchanges with **former UN Deputy Secretary-General Fabrizio** and **former WIPO Director-General Gao Rui**. The three parties engaged in in-depth discussions on SDG implementation, international talent development, global public governance, and digital cooperation — sharing cutting-edge perspectives and practical experience. This high-level face-to-face exchange strengthened GYGA's ties with senior UN networks and laid solid foundations for future collaboration.
 
+![Xuebing Bai with former UN Deputy Secretary-General Fabrizio and former WIPO Director-General Gao Rui](/images/news/ai-for-good-2026-fabrizio.jpg)
+
 ## Entering the Palais des Nations: Strategic Partnership on Youth
 
 On 7 July, at the invitation of **Academician Li Yutong, Executive President of the World Academy of Digital Technology Sciences and Innovation (WADTSI)**, Xuebing Bai attended a series of high-level thematic sessions at the United Nations Palais des Nations. During the event, he held a dedicated roundtable with Academician Li Yutong and the **Ambassador of Gambia to the United Nations**, focusing on the strategic partnership between WADTSI and GYGA, and reaching consensus on youth empowerment in the age of artificial intelligence.

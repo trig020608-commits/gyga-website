@@ -14,6 +14,8 @@ Le **Sommet mondial sur l'IA pour le bien (AI for Good Global Summit)** et le **
 
 Le 6 juillet, à l'invitation du Directeur exécutif du Centre mondial pour les ODD et le développement du leadership, Xuebing Bai a participé à une conférence thématique et à une cérémonie de remise de prix co-organisées par le Centre et l'UIT. Au cours de l'événement, il a eu des échanges chaleureux avec **l'ancien Secrétaire général adjoint de l'ONU, Fabrizio**, et **l'ancien Directeur général de l'OMPI, Gao Rui**. Les trois parties ont engagé des discussions approfondies sur la mise en œuvre des ODD, le développement des talents internationaux, la gouvernance publique mondiale et la coopération numérique internationale — partageant des perspectives de pointe et des expériences pratiques. Cet échange de haut niveau a renforcé les liens de GYGA avec les réseaux onusiens seniors et posé des bases solides pour une collaboration future.
 
+![Xuebing Bai avec l'ancien Secrétaire général adjoint de l'ONU Fabrizio et l'ancien Directeur général de l'OMPI Gao Rui](/images/news/ai-for-good-2026-fabrizio.jpg)
+
 ## Entrée au Palais des Nations : partenariat stratégique pour la jeunesse
 
 Le 7 juillet, à l'invitation de **l'Académicien Li Yutong, Président exécutif de l'Académie mondiale des sciences et de l'innovation en technologie numérique (WADTSI)**, Xuebing Bai a participé à une série de sessions thématiques de haut niveau au Palais des Nations Unies à Genève. Au cours de l'événement, il a tenu une table ronde dédiée avec l'Académicien Li Yutong et **l'Ambassadeur de Gambie auprès des Nations Unies**, se concentrant sur le partenariat stratégique entre WADTSI et GYGA, et parvenant à un consensus sur l'autonomisation des jeunes à l'ère de l'intelligence artificielle.
